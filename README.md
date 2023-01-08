@@ -1,3 +1,3 @@
-# Unity3D-SerializableInterface.SourceGenerator
+# Unity3D-SerializableInterface.Generator
 
-Source code for the source generator that is used in [Unity3D-SerializableInterface](https://github.com/Thundernerd/Unity3D-SerializableInterface)
+Source code for the generator that is used in [Unity3D-SerializableInterface](https://github.com/Thundernerd/Unity3D-SerializableInterface)
