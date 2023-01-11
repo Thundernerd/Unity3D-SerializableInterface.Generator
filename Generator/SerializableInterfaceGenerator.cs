@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -268,6 +268,11 @@ namespace TNRD.SerializableInterface.Generators
         {
             using (builder.Indent())
             {
+                if (method.ReturnType.ToString() != "void")
+                {
+                    builder.Append("return ");
+                }
+                
                 builder.Append($"Value.{method.Identifier.ValueText}");
 
                 if (method.TypeParameterList != null && method.TypeParameterList.Parameters.Count > 0)
